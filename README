@@ -1,0 +1,19 @@
+1) Requirements 
+    A google wave account
+    A web accessible server running python2.6
+
+2) Installation
+    Via your own appspot:
+    Deploy the code to your own google appserver by filling in the app.yaml provided, 
+    and the google appengine sdk.
+
+    Put wave_server_code.py on a server, fill in the settings and run.
+    It is recommended not to run this as root, doing so will allow full root
+    access to your server.
+
+3) Running
+    Create a new wave and add your appspot to the wave.
+    Fill your details using server:http://url/port and auth:password.
+    Then try an execute something on the server.
+
+Have fun!
